@@ -1,4 +1,4 @@
-ARG NODE_VERSION=10.19
+ARG NODE_VERSION=12.18
 FROM node:${NODE_VERSION}
 RUN apt-get update \
   && apt-get install -y --no-install-recommends openjdk-8-jre \
