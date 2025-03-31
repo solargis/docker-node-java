@@ -4,7 +4,7 @@ Docker Hub: [https://hub.docker.com/r/solargis/node-java-docker]
 
 ## build
 ```
-docker build -t solargis/node-java-docker:dev .
+docker build --platform linux/amd64 -t solargis/node-java-docker:dev .
 ```
 
 ## run
